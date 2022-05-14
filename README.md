@@ -57,15 +57,15 @@ This tool needs the composer.json to identify the extension-name from extra -> t
 typo3-ext-uploader will read the extension-version from the ext_emconf.php, make sure to update the version.
 The extension-version will be recognised by regex, make sure, your definition is on one line, the regex does not use the multiline option
 
-````
+```
 'version' => '1.0.0',
 ```
 You are free to use as man spaces as you like
-````
+```
 'version'    =>   '1.0.0',
 ```
 Single and double quotes are allowed
-````
+```
 "version" => "1.0.0",
 ```
 
