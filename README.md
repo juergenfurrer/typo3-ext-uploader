@@ -15,6 +15,16 @@ node deploy.js [path/to/ext]
 
 You have to rename the ```.env.example``` to ```.env``` and change the values to your needs
 
+```
+API_URL="https://extensions.typo3.org/api/v1/"
+API_TOKEN="..."
+DESCRIPTION_FILE_PATH="Documentation/ChangeLog/Index.rst"
+DESCRIPTION_REGEX="<version>\s.*\s(.*(?:\s.+)*)"
+UPLOAD_EXTENSION=0
+EXPORT_PATH="/home/user/document/"
+DEBUG=0
+```
+
 ### API_URL
 The API-URL to use for this installation
 
