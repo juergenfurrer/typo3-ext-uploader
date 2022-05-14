@@ -82,7 +82,7 @@ DESCRIPTION_FILE_PATH="Documentation/ChangeLog/Index.rst"
 ```
 
 #### DESCRIPTION_REGEX
-Set the Regex that will find your text after the
+Set the Regex that will find your text after the version number, it will use the group1 in the match
 ```
 DESCRIPTION_REGEX="<version>\s.*\s(.*(?:\s.+)*)"
 ```
